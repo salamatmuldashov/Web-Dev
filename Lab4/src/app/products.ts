@@ -8,7 +8,7 @@ export interface Product {
   link: string;
 }
 
-export const products = [
+export const products: Product[] = [
   {
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h2e/h2d/32299950997534/apple-iphone-11-64gb-cernyj-1005115-1-Container.jpg',
     rating: 2,
